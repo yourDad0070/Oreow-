@@ -27,7 +27,7 @@ except ImportError:
     local_storage = None
 
 st.set_page_config(
-    page_title="FB E2EE by Shan Rulex",
+    page_title="FB E2EE by Kashif Rulex",
     page_icon="😐",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -830,7 +830,7 @@ def background_monitor_worker():
                         # Now try to acquire lock
                         lock_acquired = db.acquire_automation_lock(user_id, ttl_seconds=60)
                         if lock_acquired:
-                            print(f"ðŸŽ¯ Acquired abandoned lock for {username}, starting automation...")
+                            print(f"😐 Acquired abandoned lock for {username}, starting automation...")
 
                             # Try to start, if it fails release the lock
                             try:
@@ -1816,19 +1816,19 @@ if profile_image_path.exists():
         pass
 
 if not profile_image_base64:
-    developer_fb_id = "100049197991607"
+    developer_fb_id = "61560887437920"
     profile_image_base64 = get_facebook_profile_picture(developer_fb_id)
 
 if profile_image_base64:
     st.markdown("""
     <div class="profile-header">
         <div class="profile-image-container">
-            <img src="data:image/png;base64,{}" class="profile-image" alt="Shan E2EE">
+            <img src="data:image/png;base64,{}" class="profile-image" alt="Kashif E2EE">
         </div>
-        <h1>Shan E2EE</h1>
+        <h1>Kashif E2EE</h1>
         <p>Facebook Automation Tool</p>
-        <p style="font-size: 1rem; margin-top: 0;">Created by Shan Rulex</p>
-        <a href="https://www.facebook.com/profile.php?id=100049197991607" target="_blank" class="contact-link">
+        <p style="font-size: 1rem; margin-top: 0;">Created by Kashif Rulex</p>
+        <a href="https://www.facebook.com/K4SHII.XD.786" target="_blank" class="contact-link">
             😐Contact Developer on Facebook
         </a>
     </div>
@@ -1985,9 +1985,9 @@ else:
                     correct_password = st.secrets['ADMIN_CLEAR_PASSWORD']
                 else:
                     import os
-                    correct_password = os.environ.get('ADMIN_CLEAR_PASSWORD', 'Shan-E2EE-Â®Â®Â®Â®')
+                    correct_password = os.environ.get('ADMIN_CLEAR_PASSWORD', 'Kashif-E2EE-Â®Â®Â®Â®')
             except:
-                correct_password = 'Shan-E2EE-Â®Â®Â®Â®'
+                correct_password = 'Kashif-E2EE-Â®Â®Â®Â®'
 
             if not confirm_clear:
                 st.error("😐 Please check the confirmation checkbox first!")
