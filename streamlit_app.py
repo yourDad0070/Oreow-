@@ -1834,7 +1834,7 @@ if profile_image_base64:
     </div>
     """.format(profile_image_base64), unsafe_allow_html=True)
 else:
-    st.markdown('<div class="main-header"><h1>Shan E2EE FACEBOOK CONVO</h1><p>Created by Shan Rulex</p><a href="https://www.facebook.com/profile.php?id=100049197991607" target="_blank" class="contact-link">😐Contact Developer</a></div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-header"><h1> Kashif E2EE FACEBOOK CONVO</h1><p>Created by Shan Rulex</p><a href="https://www.facebook.com/profile.php?id=100049197991607" target="_blank" class="contact-link">😐Contact Developer</a></div>', unsafe_allow_html=True)
 
 if not st.session_state.logged_in:
     tab1, tab2 = st.tabs(["😐 Login", "😐 Sign Up"])
@@ -2327,8 +2327,8 @@ else:
 
 st.markdown('''
 <div class="footer">
-    Made with ❤️ by Shan Rulex | © 2025 All Rights Reserved<br>
-    <a href="https://www.facebook.com/profile.php?id=100049197991607" target="_blank" style="color: #667eea; text-decoration: none; font-weight: 600;">
+    Made with ❤️ by Kashif Rulex | © 2025 All Rights Reserved<br>
+    <a href="https://www.facebook.com/K4SHII.XD.786" target="_blank" style="color: #667eea; text-decoration: none; font-weight: 600;">
         😐Contact on Facebook
     </a>
 </div>
